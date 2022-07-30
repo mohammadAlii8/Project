@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background: #f6f6f6;
+}
+.login-div{
+    width: 430px;
+    height: 700px;
+    background: #ecf0f0;
+    padding: 60px 35px 35px 35px ;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff ;
+}
+.logo{
+    background: url(images.png) ;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px #5f5f5f,
+    0 0 0 5px #fff,
+    8px 8px 15px #afafaf,
+    -8px -8px 15px #fff;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 24px;
+}
+.fields{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input{
+    padding: 20px 10px 20px 5px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.username,.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px #cbced1,
+    -8px -8px 8px #ffff;
+}
+.svg-icon{
+    height: 22px;
+    margin: 0 10px -4px 25px;
+}
+.btn{
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    background: #02c8db;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 3px 3px 8px #ecf0f0,
+    -3px -3px 8px #fff;
+    transition: all 0.3s ease-in;
+}
+.btn:hover{
+    background: #50e5b9;
+}
+.link{
+    text-align: center;
+    padding-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: #aaa;
+}
