@@ -1,2 +1,2 @@
 
-### Blog Section Page with HTML and CSS
+### Blog Section Page with HTML and CSS 
