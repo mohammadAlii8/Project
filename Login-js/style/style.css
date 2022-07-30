@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+/* General Styel */
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M958.48 51.32 a9.52 9.52 0 1 0 19.04 0 a9.52 9.52 0 1 0 -19.04 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M440.94 389.15L457.1 389.15L457.1 405.31L440.94 405.31z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M339.6 367.29L369.81 367.29L369.81 391.01L339.6 391.01z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M691.93 6.4L724.7 6.4L724.7 61.26L691.93 61.26z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1248.72 154.04 a38.3 38.3 0 1 0 76.6 0 a38.3 38.3 0 1 0 -76.6 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M636.57 201.24L649.74 201.24L649.74 214.41L636.57 214.41z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1205.72 427.47L1226.72 427.47L1226.72 476.7L1205.72 476.7z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M118.61 262.99L157.99 262.99L157.99 302.37L118.61 302.37z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M159.32 94.62a0.15 0.15 0 1 0-0.26-0.15z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M528.47 251.99a1.21 1.21 0 1 0-2.09 1.21z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M724.77 73.86L732.55 73.86L732.55 81.64L724.77 81.64z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1154.59 479.75 a36.66 36.66 0 1 0 73.32 0 a36.66 36.66 0 1 0 -73.32 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M349.08 247.87L398.57 247.87L398.57 297.36L349.08 297.36z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M27.98 201.39a47.17 47.17 0 1 0-39.72-85.56z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M253.43 425.17L283.39 425.17L283.39 455.13L253.43 455.13z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M86.3 441.32L104.15 441.32L104.15 470.47L86.3 470.47z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M454.86 277.59L458.26 277.59L458.26 280.99L454.86 280.99z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M853.62 382.88L862.97 382.88L862.97 435.39L853.62 435.39z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1180.85 322.74L1234.29 322.74L1234.29 376.18L1180.85 376.18z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M402.76 551.12 a51.34 51.34 0 1 0 102.68 0 a51.34 51.34 0 1 0 -102.68 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M611.51 460.2L662.29 460.2L662.29 461.24L611.51 461.24z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M99.24 399.54 a50.56 50.56 0 1 0 101.12 0 a50.56 50.56 0 1 0 -101.12 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1044.19 59.7L1061.94 59.7L1061.94 77.45L1044.19 77.45z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M115.28 489.22 a53 53 0 1 0 106 0 a53 53 0 1 0 -106 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1294.46 526.24L1309.32 526.24L1309.32 551.94L1294.46 551.94z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M762.73 253.21L808.95 253.21L808.95 299.43L762.73 299.43z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M44.79 532.89a10.27 10.27 0 1 0 20.39-2.48z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1095.76 302.62L1106.55 302.62L1106.55 338.49L1095.76 338.49z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M383.96 486.34L393.89 486.34L393.89 496.14L383.96 496.14z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M367.52 197.94a48.11 48.11 0 1 0 89.47-35.4z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M959.75 239.06L966.41 239.06L966.41 276.21L959.75 276.21z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1043.19 436.75 a7.09 7.09 0 1 0 14.18 0 a7.09 7.09 0 1 0 -14.18 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M385.69 100.97L404.96 100.97L404.96 121.2L385.69 121.2z' fill='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/* General Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    font-family: 'Poppins', sans-serif;
+}
+input:focus{
+    outline: none;
+}
+
+/* Login Section */
+#Login{
+    background-color: #fff;
+    width: 400px;
+    margin: 200px auto 0 auto;
+    border-radius: 3px;
+    padding: 60px;
+}
+
+#Login #title{
+   /* font-weight: bold; */
+   font-size: 23px;
+   color: #0e2a90;
+}
+#Login form{
+    margin-top: 20px;
+}
+#Login .label{
+    display: block;
+    padding: 8px 0;
+}
+#Login .input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#Login .input:focus{
+    background-color: #e0e0e0;
+}
+#Login .pass-visibility{
+    width: 18px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 10px;
+    right: 4px;
+    display: none;
+}
+#Login .pass-visibility:hover{
+    opacity: 0.8;   
+    cursor: pointer;
+}
+
+#Login #password-container{
+    /* background-color: red; */
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+#Login .btn{
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    background-color: #0e2a90;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+#Login .btn:hover{
+    background-color: #0e2a50;
+    cursor: pointer;
+}
